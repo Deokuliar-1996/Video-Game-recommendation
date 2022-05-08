@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+h1 {text-align: center;}
+body {
+      background-image: url('https://i2.wp.com/twinfinite.net/wp-content/uploads/2019/12/11307HiUMZj-cD3ttM41cyQWyu1MnbHp6T4a7UUjHCVL4lvs_aZpEdTig95f317RpoRopadCq3HbRhblRZt2oFnFnKg5INNU.jpg?fit=622%2C350&ssl=1');
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+    }
+</style>
+</head>
+
+<body>
+    <h1><FONT COLOR="WHITE">Here are some games you might enjoy!!</h1>
+    {% for table in table %} 
+    {{ table|safe }} 
+    {% endfor %}
+</body>
