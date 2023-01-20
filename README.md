@@ -15,11 +15,11 @@ Some of the advantages of this recommendation website over others on the interne
 
 **Basic Search**
 
-![](https://github.com/ssameermah/whichgameshouldiplay.com/blob/master/streamlit%20app/gifs/normal%20search.gif)
+![](https://github.com/Deokuliar-1996/Video-Game-recommendation/blob/main/flask%20app/Basic_recommender.gif)
 
 **Advanced Search**
 
-![](https://github.com/ssameermah/whichgameshouldiplay.com/blob/master/streamlit%20app/gifs/advance%20search.gif)
+![](https://github.com/Deokuliar-1996/Video-Game-recommendation/blob/main/flask%20app/Advanced_recommender.gif)
 
 
 
