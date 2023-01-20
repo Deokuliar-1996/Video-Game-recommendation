@@ -41,7 +41,7 @@ We ran our video recommendation system on some test cases and below are a few in
 ## How to use
 Make sure to install flask
 
-Run app.py in the flask app folder. The entries of games on the website is case sensitive and hence use game_names.txt in the flask app folder to get the all the game names with the correct case. This is a feature we are working on to fix.
+Run app.py in the flask app folder. The entries of games on the website is case sensitive and hence use game_names.txt in the flask app folder to get the all the game names with the correct case. This is a bug we are working on to fix.
 	
 ## Contributors
 © Harsh Deokuliar © Sameer Mahajan
