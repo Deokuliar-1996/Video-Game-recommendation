@@ -13,6 +13,22 @@ Some of the advantages of this recommendation website over others on the interne
 2. We scraped 258,562 different reviews spanning 2716 games. Our data was filtered further to 58384 rows as only users with more than 4 reviews were considered. Our data contained 3 columns, the username, the video game and the rating of the game by the user.
 3. Most of our time went getting relevant data as during scraping we did come across issues which were dealt with as needed. Once the data was collected, there was no need for any preprocessing as all those steps were part of the scraping script. 
 
+**Basic Search**
+
+![](https://github.com/ssameermah/whichgameshouldiplay.com/blob/master/streamlit%20app/gifs/normal%20search.gif)
+
+**Advanced Search**
+
+![](https://github.com/ssameermah/whichgameshouldiplay.com/blob/master/streamlit%20app/gifs/advance%20search.gif)
+
+
+
+There are two main ways in recommender systems for recommending products to users:
+1. Content-Based Filtering -  This method is based on an item's description and a record of the user's preferences. 
+2. Collaborative Filtering - This strategy is based on the notion that individuals who loved an item in the past would enjoy it again in the future.
+
+<img width="600" height="300" alt="image" src="https://user-images.githubusercontent.com/46833935/168930125-6fdcb088-14c8-4138-8059-8438462b8ded.png">
+We have used Collaborative Filtering as our methodology.
 
 
 
