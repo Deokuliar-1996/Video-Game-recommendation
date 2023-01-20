@@ -30,11 +30,19 @@ There are two main ways in recommender systems for recommending products to user
 <img width="600" height="300" alt="image" src="https://user-images.githubusercontent.com/46833935/168930125-6fdcb088-14c8-4138-8059-8438462b8ded.png">
 We have used Collaborative Filtering as our methodology.
 
+## Inferences and Learnings
+We ran our video recommendation system on some test cases and below are a few interesting things we noticed.
 
+1. Gamers tend to stick to a games in the same genre. For example if a user inputted action based games, most of the games recommended would be action games.
+2. We noticed that there was a significant negative correlation between sports games and open-world action and survival games.
+3. The ratings on sports games were much lesser than average rating of all games. 
+4. The application uses data from one source(metacritic), and could cause performance bias as it might not be representative of the whole distribution.
 
 # How to use
 Make sure to install flask
 
-Run app.py in the flask app folder. The entries of games on the website is case sensitive and hence use game_names.txt in the flask app folder to get the all the game names with the correct case.
+Run app.py in the flask app folder. The entries of games on the website is case sensitive and hence use game_names.txt in the flask app folder to get the all the game names with the correct case. This is a feature we are working on to fix.
 	
+## Contributors
+© Harsh Deokuliar © Sameer Mahajan
 
