@@ -38,7 +38,7 @@ We ran our video recommendation system on some test cases and below are a few in
 3. The ratings on sports games were much lesser than average rating of all games. 
 4. The application uses data from one source(metacritic), and could cause performance bias as it might not be representative of the whole distribution.
 
-# How to use
+## How to use
 Make sure to install flask
 
 Run app.py in the flask app folder. The entries of games on the website is case sensitive and hence use game_names.txt in the flask app folder to get the all the game names with the correct case. This is a feature we are working on to fix.
